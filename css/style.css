@@ -1,0 +1,33 @@
+label, button, input, .checkbox {
+  color: #fff;
+  font-size: 12px;
+  display: inline-block;
+  margin-left: 10%;
+}
+
+button {
+  margin: 4% 2% 0 12%;
+  border: 1px solid #666;
+}
+
+button:focus, button:active {
+  outline: none;
+  border: 1px solid #666;
+}
+
+.checkbox {
+  margin-top: 5%;
+}
+
+input {
+  color: #000;
+}
+
+#Color {
+  border: none;
+  background: none;
+}
+
+#overlay, button, input {
+  background-color: rgba(100, 100, 100, 0.2);
+}
